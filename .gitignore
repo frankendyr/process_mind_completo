@@ -1,0 +1,36 @@
+# PROCESS MIND - Arquivos a serem ignorados pelo Git
+
+# Variáveis de ambiente (contém chaves secretas)
+.env
+*.env
+
+# Banco de dados local
+*.db
+*.sqlite
+*.sqlite3
+
+# Cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Logs
+*.log
+nohup.out
+
+# Arquivos temporários
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Streamlit
+.streamlit/
+
